@@ -1,1 +1,124 @@
-/* место для вашего кода */
+.header {
+  max-width: 1052px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 92px 26px 96px;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.header__links-list {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  list-style: circle;
+  font-style: normal;
+  text-underline-position: under;
+  
+}
+
+.header__links-list-item {
+  margin-right: 32px;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__logo {
+  width: 138px;
+}
+
+.header__logo-image {
+  display: block;
+  width: 100%;
+}
+
+.address {
+  max-width: 240.52px;
+  width: 100%;
+  justify-self: end;
+  align-self: center;
+  font-style: normal;
+  text-underline-position: under;
+}
+
+.header__address {
+  display: block;
+}
+
+.cover {
+  position: relative;
+  padding: 157px 50px 51px;
+  color: #fff;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  z-index: -2;
+  text-transform: uppercase;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(0 0 0 / .6);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.cover__title {
+  font-size: 100px;
+  line-height: 1.28;
+  letter-spacing: 0.3em;
+}
+
+.aligned-text {
+  display: block;
+}
+
+ .aligned-text_center {
+  text-align: center;
+  padding-right: 29px;
+ }
+
+ .aligned-text_right {
+  text-align: right;
+  line-height: 1.12;
+  margin-right: -30px;
+ }
+
+ .aligned-text-letter {
+  margin-left: -24px;
+ }
+
+ .aligned-text-right-letter {
+  margin-right: -24px;
+ }
+
+ .cover__description {
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  line-height: 1.27;
+  margin-top: 129px;
+ }
+
+ .cover__description-text {
+  word-spacing: 19px;
+  margin-left: 28px;
+  align-self: center;
+ }
+
+ .bet-button {
+  font-size: inherit;
+  color: inherit;
+  text-transform: inherit;
+  background: transparent;
+  cursor: pointer;
+  padding: 12px 32px;
+  border: 1px solid #fff;
+ }
