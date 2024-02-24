@@ -1,1 +1,1 @@
-https://github.com/nikitapetrukhin/ono-tebe-nado/tree/main
+https://github.com/nikitapetrukhin/ono-tebe-nado.git
